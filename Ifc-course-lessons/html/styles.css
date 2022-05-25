@@ -5,20 +5,31 @@ button {
 .button-container {
     display: inline-flex;
     width: fit-content;
-    background-color: #eee;
+    background-color: DarkGray;
 }
 
 .main-button {
-    background-color: #ddd;
-    border: solid 1px #aaa;
+    background-color: DarkCyan;
+    border: solid 0.1px #aaa;
 }
 
 .secondary-button {
     color: #555;
-    background-color: #ddd;
-    border: solid 1px #aaa;
+    background-color: #ee3e80;
+    border: solid 0.1px #aaa;
 }
 
 .vertical {
     flex-direction: column;
+}
+
+
+h1 {
+  color: #ee3e80;
+  font-family: Verdana
+}
+
+h2 {
+  color: Gray;
+  font-family: Verdana
 }
