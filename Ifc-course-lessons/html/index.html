@@ -3,6 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
     <title>Html Exercise 1</title>
   </head>
   <body>
@@ -13,8 +14,29 @@
       <p>It all starts when I was riding my biycicle near the river where I used to live when I was a kid. To be honest, neither the
         name of the city nor the river matters! But let's say that it was not far from where I am now.</p>
       <p><i>"This makes no sense."</i> You may <del>say</del> think. And <u>I </u> totally agree with you.
-      <img src="./static/fish.jpg" alt="A talking fish">
-      </div>
 
+<!-- Adding images and videos / iframes -->
+      <img src="../static/fish.jpg" alt="A talking fish"> <!-- ".."" are used to return one folder -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/76kX_y3WJyg" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- Defining ids: ids can only be attributed to one object -->
+      <p id="first message"> First Message! </p>
+      <p id="second message"> Second Message! </p>
+
+<!-- Defining classes: classes may be attributed to different objects. below there are three classes: message, one and two -->
+      <p class="message one"> Second Message! </p>
+      <p class="message two"> Second Message! </p>
+
+<!-- Classes and buttons -->
+  <div id="main-toolbar" class="button-container">
+    <button class="main-button"> Button 1 </button>
+
+    <div class="button-container vertical">
+      <button class="secondary-button"> Button 2 </button>
+      <button class="secondary-button"> Button 3 </button>
+
+    </div>
+  </div>
     </body>
 </html>
