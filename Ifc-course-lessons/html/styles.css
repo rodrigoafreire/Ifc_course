@@ -33,3 +33,9 @@ h2 {
   color: Gray;
   font-family: Verdana
 }
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
