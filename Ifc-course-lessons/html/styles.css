@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat";
+
 button {
     margin: 6px;
 }
@@ -39,3 +41,13 @@ iframe {
   height: 100vh;
   overflow: hidden;
 }
+
+a[href] {
+  color: #7703fc;
+  font-family: 'Montserrat';
+  font-size: 18px;
+
+}
+
+p {
+  font-family: "Roboto"}
