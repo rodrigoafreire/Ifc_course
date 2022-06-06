@@ -1,5 +1,17 @@
 @import "https://fonts.googleapis.com/css2?family=Montserrat";
 
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+
+a[href] {
+  color: #7703fc;
+  background-color: Yellow;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
 button {
     margin: 6px;
 }
@@ -25,10 +37,17 @@ button {
     flex-direction: column;
 }
 
+li {display: inline;
+  padding: 0.5em;
+}
 
 h1 {
   color: #ee3e80;
   font-family: Verdana
+}
+
+.head-text {
+  color: Gray
 }
 
 h2 {
@@ -42,12 +61,11 @@ iframe {
   overflow: hidden;
 }
 
-a[href] {
-  color: #7703fc;
-  font-family: 'Montserrat';
-  font-size: 18px;
-
+#nav {
+  text-align: center;
 }
 
+
 p {
-  font-family: "Roboto"}
+  font-family: "Roboto";
+  background-color: ghostwhite;}
